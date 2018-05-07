@@ -19,7 +19,7 @@
     "start": "http-server",
     "build": "webpack-cli",
     "test": "http-server && chrome test.html",
-    "startD": "webpack-dev-server"
+    "startD": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
